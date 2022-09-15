@@ -206,7 +206,8 @@ font-weight: lighter;
   }
   .container{
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-left: 90px;
     }
   .list-container{
     margin-left: 30px;
@@ -223,6 +224,7 @@ font-weight: lighter;
 }
 .second-logo{
   display: flex;
+  margin-left: 80px;
 
  
 }
@@ -235,7 +237,7 @@ font-weight: lighter;
 }
 .hero-text{
   color: antiquewhite;
-  margin-left: 80px;
+  margin-left:200px; 
   margin-top: 20px;
 }
 .headingText{
