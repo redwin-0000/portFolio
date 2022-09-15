@@ -219,6 +219,9 @@ font-weight: lighter;
     justify-content: space-between;
    
   }
+  .headingText{
+    font-size: 25px;
+  }
 .logo2{
   display: none;
 }
