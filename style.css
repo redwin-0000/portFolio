@@ -38,6 +38,14 @@ display: none;
   flex-direction: row;
 
 }
+.headingText{
+color: antiquewhite;
+font-size: 30px;
+
+}
+.headingText:hover{
+  background-color: #fff;
+}
 .hero-text{
   color: antiquewhite;
   margin-left: 600px;
