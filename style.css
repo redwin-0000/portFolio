@@ -229,6 +229,7 @@ font-weight: lighter;
 .hero-section{
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
 
 }
 .hero-text{
