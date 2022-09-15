@@ -249,4 +249,19 @@ margin-left: 190px;
  
 }
 
+/* about me section */
+.img{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: -130px;
+}
+.heading-section1{
+
+  margin-top: 100px;
+  margin-right: 150px;
+}
+.paragraph-section{
+  margin-top: 10px;
+  margin-right: 60px;
+}
 }
