@@ -206,7 +206,7 @@ font-weight: lighter;
   }
   .list-container{
     margin-left: 20px;
-    margin-right: 25px;
+    /* margin-right: 25px; */
     margin-top: 15px;
     display: flex;
     flex-direction: row;
