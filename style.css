@@ -1,0 +1,252 @@
+
+*{
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  align-items: center;
+  justify-content: space-evenly;
+  }
+
+.logo{
+  width: 180px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  
+}
+.list-container{
+margin-left: 400px;
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+.logo2{
+  margin-top: 200px;
+  margin-left: 40px;
+}
+.second-logo{
+display: none;
+}
+
+.hero-section{
+  display: flex;
+  flex-direction: row;
+
+}
+.hero-text{
+  color: antiquewhite;
+  margin-left: 600px;
+  margin-top: 300px;
+}
+.hero-text-h1{
+  font-size: 100px;
+}
+.hero-text-h5{
+  font-size: xx-large;
+   margin-left: 30px;           
+}
+.hero-text-h6{
+  text-decoration-line: overline;
+  font-size: x-large;
+}
+.hero-text-h{
+  font-size:x-large;
+}
+.footer-logo{
+display: flex;
+flex-direction: row;
+margin-left: 60%;
+}
+.insta-logo{
+  width: 30%;
+}
+.linked-logo{
+  width: 30%;
+}
+.github-logo{
+  width: 20%;
+  margin-top: -30px;
+
+}
+.footer-header{
+  color: aliceblue;
+  margin-top: 50px;
+  margin-left: 50%;
+}
+/* home page end */
+/* project page start */
+ 
+.card{
+  margin-top: 100px;
+
+}
+.card-row{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 25px;
+}
+.flip-card{
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+ 
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+ 
+}
+
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  
+}
+.flip-card-back-text{
+/* background-color: black; */
+text-decoration-line: underline;
+font-weight:bold;
+
+}
+
+/* about me section  */
+
+.heading-section1{
+display:flex ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: -300px;
+margin-left: 35%;
+}
+.paragraph-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin-left: 25%;
+}
+.heading-text{
+  color: rgb(150, 76, 76);
+ font-weight: bolder;
+ font-size: xx-large;
+ 
+}
+.p{
+ color: #bbb;
+ font-size:larger;
+font-weight: lighter;
+
+}
+
+.img{
+  width: 30%;
+  margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+/* media quary start */
+@media(min-width:300px) and (max-width:600px){
+  *{
+    background-color:#000000;
+  }
+  .logo{
+    display: none;
+  }
+  .list-container{
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+   
+  }
+.logo2{
+  display: none;
+}
+.second-logo{
+  display: flex;
+
+ 
+}
+.hero-section{
+  display: flex;
+  flex-direction: column;
+
+}
+.hero-text{
+  color: antiquewhite;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.hero-text-h1{
+  font-size: 50px;
+}
+.hero-text-h5{
+margin-left: -30px;           
+}
+.footer-logo{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+.github-logo{
+  margin-top: -18px;
+}
+.footer-header{
+  color: bisque;
+margin-left: 190px;
+}
+
+
+/* project-page-start */
+.card-row{
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+.flip-card-front{
+  text-decoration-line: underline;
+ 
+}
+
+}
