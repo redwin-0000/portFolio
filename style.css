@@ -204,6 +204,10 @@ font-weight: lighter;
   .logo{
     display: none;
   }
+  .container{
+    align-items: center;
+    justify-content: space-between;
+    }
   .list-container{
     margin-left: 10px;
     /* margin-right: 25px; */
