@@ -40,11 +40,13 @@ display: none;
 }
 .headingText{
 color: antiquewhite;
-font-size: 30px;
+font-size: 25px;
+text-decoration-line: underline;
 
 }
 .headingText:hover{
-  background-color: #fff;
+  background-color: #000;
+  color: maroon;
 }
 .hero-text{
   color: antiquewhite;
@@ -228,6 +230,16 @@ font-weight: lighter;
   margin-left: 150px;
   margin-top: 20px;
 }
+.headingText{
+  color: antiquewhite;
+  font-size: 15px;
+  text-decoration-line: underline;
+  
+  }
+  .headingText:hover{
+    background-color: #000;
+    color: maroon;
+  }
 .hero-text-h1{
   font-size: 50px;
 }
