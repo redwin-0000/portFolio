@@ -28,6 +28,7 @@ align-items: center;
 .logo2{
   margin-top: 200px;
   margin-left: 40px;
+  
 }
 .second-logo{
 display: none;
@@ -51,7 +52,7 @@ text-decoration-line: underline;
 .hero-text{
   color: antiquewhite;
   margin-left: 600px;
-  margin-top: 300px;
+  margin-top: 250px;
 }
 .hero-text-h1{
   font-size: 100px;
@@ -86,7 +87,7 @@ margin-left: 60%;
 .footer-header{
   color: antiquewhite;
   margin-top: 50px;
-  margin-left: 43%;
+  margin-left: 46%;
 }
 /* home page end */
 /* project page start */
