@@ -136,7 +136,7 @@ margin-left: 60%;
   backface-visibility: hidden;
 }
 .flip-card-front {
-  background-color: #bbb;
+  background-color: rgb(247, 241, 241);
   color: black;
  
 }
@@ -144,14 +144,14 @@ margin-left: 60%;
 .flip-card-back {
   background-color: black;
   color: white;
-  transform: rotateY(180deg);
+  /* transform: rotateY(360deg); */
   
 }
 .flip-card-back-text{
 /* background-color: black; */
-text-decoration-line: underline;
+/* text-decoration-line: underline; */
 font-weight:bold;
-
+border: 1px solid rgb(95, 49, 49);
 }
 
 /* about me section  */
