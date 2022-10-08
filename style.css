@@ -1,6 +1,6 @@
 
 *{
-  background-color: #000000;
+  background-color: #131212;
   margin: 0;
   padding: 0;
 }
@@ -28,7 +28,22 @@ align-items: center;
 .logo2{
   margin-top: 200px;
   margin-left: 40px;
+
   
+}
+.download{
+  color: #bbb;
+  margin-top: -550px;
+  margin-left: 600px;
+  border: 2px solid #bbb;
+  width: max-content;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: bolder;
+  background-color: rgb(61, 34, 34);
+}
+:hover.download{
+  color: brown;
 }
 .second-logo{
 display: none;
@@ -86,7 +101,7 @@ margin-left: 60%;
 }
 .footer-header{
   color: antiquewhite;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 46%;
 }
 /* home page end */
@@ -126,7 +141,7 @@ margin-left: 60%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+  transform: rotateY();
 }
 .flip-card-front, .flip-card-back {
   position: absolute;
