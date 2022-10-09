@@ -101,7 +101,7 @@ margin-left: 60%;
 }
 .footer-header{
   color: antiquewhite;
-  margin-top: 100px;
+  margin-top: 250px;
   margin-left: 46%;
 }
 .social_media{
@@ -230,7 +230,7 @@ font-weight: lighter;
   .container{
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 90px;
+
     }
   .list-container{
     margin-left: 30px;
@@ -282,7 +282,11 @@ font-weight: lighter;
 .hero-text-h5{
 margin-left: -30px;           
 }
-.footer-logo{
+.download{
+  margin-top: -680px;
+  margin-left: 30px;
+}
+/* .footer-logo{
   display: flex;
   flex-direction: row;
 
@@ -292,10 +296,11 @@ margin-left: -30px;
 }
 .github-logo{
   margin-top: -10px;
-}
+} */
 .footer-header{
   color: bisque;
-margin-left: 180px;
+  margin-left: 180px;
+  margin-top: 450px;
 }
 
 
