@@ -147,9 +147,6 @@ margin-left: 60%;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-.flip-card:hover .flip-card-inner {
-  transform: rotateY();
-}
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -157,23 +154,29 @@ margin-left: 60%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.flip-card-front {
+/* .flip-card-front {
   background-color: rgb(247, 241, 241);
   color: black;
  
-}
-
+} */
+/* 
 .flip-card-back {
   background-color: black;
   color: white;
-  /* transform: rotateY(360deg); */
+ 
   
-}
+} */
 .flip-card-back-text{
 /* background-color: black; */
 /* text-decoration-line: underline; */
+color: #bbb;
 font-weight:bold;
 border: 1px solid rgb(95, 49, 49);
+}
+.footer-header1{
+  color: antiquewhite;
+  margin-top: 30px;
+  margin-left: 46%;
 }
 
 /* about me section  */
@@ -208,8 +211,9 @@ font-weight: lighter;
 }
 
 .img{
-  width: 50%;
-  margin-top: 150px;
+ margin-left: 200px;
+  margin-top: 250px;
+
 }
 
 
